@@ -1,0 +1,13 @@
+# Ignore virtual environments
+myvenv/
+env/
+db.sqlite3
+
+.env
+# Ignore SQLite database files
+*.sqlite3
+*.db
+*.sqlite
+
+# Ignore other SQLite related files (optional)
+*.sqlite-journal
